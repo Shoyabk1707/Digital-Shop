@@ -1,0 +1,826 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+.ubuntu_font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+    background-color: white;
+}
+
+.px-20{
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.color-white{
+    color:white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    /* background-color: grey;  */
+    /* padding: 0px 20px 0px 20px; */
+}
+
+.logo{
+    font-family: 'Changa', sans-serif;
+    /* font-family: 'Tektur', cursive; */
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(223, 7, 7);
+    margin-left: 20px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 30px 0px 0px 30px;
+    /* justify-content: space-between; */
+}
+
+
+li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.right-nav{
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: right;
+    margin: 30px 30px 0px 0px ;
+    cursor: pointer;
+}
+
+.right-nav i{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.hero-section{
+    width: 98%; 
+    height: 100vh;
+    background-image: linear-gradient(to right, #DDDDDC,#EEEEEE);
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section .content{
+   margin:150px auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-section .content h2{
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: 1000;
+    color: black;
+}
+
+.hero-section .content h1{
+    margin-top: -20px;
+    font-size: 10rem;
+    /* font-weight: 2000; */
+    color: white;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 10px;
+    
+}
+
+.sbc{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #F62D3C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sbc:hover{
+    background-color: red;
+}
+
+.image-overlay{
+    width: 450px;
+    height: 500px;
+    left: 500px;
+    top: 50px;
+    padding: .5rem;
+    margin: 4px;
+    position: absolute;
+}
+
+.image-overlay img{
+    width: 100%;
+    transform: rotate(15deg);
+    filter: drop-shadow(15px 10px 8px #4d4d4dab);
+}
+
+.grid-section{
+    height: auto;
+    display: grid;
+    margin-left: 20px;
+    margin-top: 30px;
+    column-gap: 2%;
+    grid-template-columns: 23% 23% 23% 23%;    
+}
+
+.box{
+    border-radius: 20px;
+    height:300px;
+    padding: 10px;
+    margin-bottom: 4%;
+}
+
+#box-1{
+    background-image: linear-gradient(to right, #F42A37,#FF4A55);
+    grid-column: 1 / 3;
+    display: flex;
+    position: relative;
+}
+
+.box1-content{
+    width: 50%;
+    margin-left:40px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+
+.box1-content h4,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.box1-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(250, 145, 145);
+    margin-top: -15px;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.white{
+    background-color: white;
+}
+
+.Browse-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.lappy-img{
+    width: 350px;
+    /* height: 300px; */
+    left: 250px;
+    top: 50px;
+    position: absolute;
+    transform: rotate(-10deg);
+    filter: drop-shadow(-5px 10px 10px #531e1e)
+    
+}
+
+.width-100{
+    width:100%;
+}
+
+#box-2{
+    background-image: linear-gradient(to right, #272727,#5e5d5d);
+    align-content: flex-start;
+    position: relative;
+}
+
+.earphone-img{
+    position: absolute;
+    margin-left: 20px;
+    width: 90%;
+    left: 0;
+    top: -10px;
+    filter: drop-shadow(5px 10px 10px #000000);
+    
+}
+
+
+.box2-content{
+    width: 50%;
+    margin-left:20px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+
+.box2-content h5,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.box2-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(107, 107, 107);
+    margin-top: -10px;
+    letter-spacing: 2px;
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+}
+
+.red{
+    background-color: #F32C37;
+    color: white;
+}
+
+/* BOX 3  */
+
+#box-3{
+    background-image: linear-gradient(to right, #fdd766,#fac94e);
+    align-content: flex-start;
+    position: relative;
+}
+
+.Smartwatch-img{
+    position: absolute;
+    margin:auto;
+    width: 50%;
+    left: 110px;
+    top: 50px;
+    transform: rotate(20deg);
+    /* filter: drop-shadow(5px 10px 10px #000000); */
+    
+}
+
+
+.box3-content{
+    width: 50%;
+    margin-left:30px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+
+.box3-content h5,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.box3-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #fadd93;
+    margin-top: -15px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+/* BOX 4 */
+#box-4{
+    background-image: linear-gradient(to right, #3dfa85,#5cf797);
+    align-content: flex-start;
+    position: relative;
+}
+
+.box4-content{
+    width: 100%;
+    margin-left:30px;
+    margin-top: 20px;
+}
+
+.box4-content h5,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.box4-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #7dffaf;
+    margin-top: -15px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.vr-img{
+    /* background-color: grey; */
+    position: absolute;
+    /* margin:auto; */
+    width: 100%;
+    left: 0;
+    top: 122px;
+}
+
+/* BOX 5 */
+
+#box-5{
+    background-image: linear-gradient(to right, #147AFC,#4493fa);
+    align-content: flex-start;
+    position: relative;
+}
+
+.box5-content{
+    width: 50%;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.box5-content h5,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.box5-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #79b1fa;
+    margin-top: -15px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.speaker-img{
+    position: absolute;
+    width: 50%;
+    left: 150px;
+    top: 70px;
+}
+
+
+/* BOX 6 */
+#box-6{
+    background-image: linear-gradient(to right, #c7c7c7,#e7e7e7);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+}
+
+.box6-content{
+    width: 50%;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.box6-content h4,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.box6-content h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #e7e7e7;
+    margin-top: -15px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.ps-img{
+    position: absolute;
+    width: 45%;
+    left: 320px;
+    top: 40px;
+    filter: drop-shadow(0px 10px 10px #616161);
+}
+
+/* FEATURES */
+.features{
+    width: 96%;
+    margin: 30px auto;
+    display: flex;
+    /* background:grey; */
+    justify-content: space-between;
+}
+
+.feature-icon{
+    font-size: 40px;
+    margin: 0 10px 0 0;
+    color: #ff3939;
+}
+
+.features-heading{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.features-text{
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(139, 139, 139);
+}
+
+/* HEROINE-SECTION */
+.heroine-section{
+    /* background-color: grey; */
+    width: 96%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.summer-sale{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:200px;
+    background-image: radial-gradient(#E1434C, #F42C37);
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.hd2-img{
+    /* width: 100%; */
+    /* background-color: yellow; */
+    position: absolute;
+    width: 30%;
+     left: 300px;
+    top: 50px; 
+    /* filter: drop-shadow(20px 10px 30px #363636); */
+}
+
+.left{
+    /* width: 300px; */
+    /* background-color: #147AFC; */
+    margin:auto ;
+    color: white;
+    margin-left: 80px;
+}
+
+.right{
+    /* background-color: #4493fa; */
+    margin:auto;
+    margin-right: 150px;
+    color: white;
+}
+
+.small-text{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+}
+
+.off-season{
+    font-family: 'Kanit', sans-serif;
+    font-size: 5rem;
+    line-height: 90%;
+}
+
+.ss{
+    color:white;
+    font-family: 'Darker', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-bottom: -3px;
+}
+
+.shop-btn{
+    margin-top: 20px;
+}
+
+
+/* Best Seller Product */
+.bsp-text{
+    font-family: 'kanit', sans-serif;
+    font-size: 2rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bsp-heading{
+    margin-bottom: -15px;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bs-products{
+    height: auto;
+    display: grid;
+    /* border: 2px solid red; */
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+.product{
+    /* background-color: rgb(107, 107, 107); */
+    /* min-height: 400px; */
+    margin:30px 10px;
+    
+}
+
+.product-img{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.product-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin:10px 0;
+    color: #202020;
+}
+
+.product-price{
+    font-family: 'Darker', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    /* margin:5px 0; */
+}
+
+.product1{
+    width: 40%;
+    margin:  10% 0 0 30%;
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+}
+
+.product2{
+    width: 50%;
+    margin:  30px 0 0 60px; 
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+    
+}
+
+.product3{
+    width: 65%;
+    margin:  40px 0 0 50px; 
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+}
+
+.product4{
+    width: 60%;
+    margin:  45px 0 0 60px; 
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+}
+
+.product5{
+    width: 50%;
+    margin:  40px 0 0 60px; 
+}
+.product6{
+    width: 55%;
+    margin:  15px 0 0 55px; 
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+}
+.product7{
+    width: 55%;
+    margin:  25px 0 0 75px; 
+}
+.product8{
+    width: 45%;
+    margin:  35px 0 0 75px; 
+    filter: drop-shadow(8px 10px 5px #2b2b2b67);
+}
+
+.hover-effect:hover{
+    width: 70%;
+    filter: drop-shadow(8px 10px 5px #1111115e);
+    transform: rotate(10deg);
+    transition: 0.5s ease-in-out;
+    /* transition: 1s ease-out; */
+}
+
+
+/* HEROINE-SECTION 2 */
+.heroine-section2{
+    /* background-color: grey; */
+    width: 96%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.happy-hours{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:200px;
+    background-image: radial-gradient(#f88752, #ff6e2a);
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.hd2-img{
+    /* width: 100%; */
+    /* background-color: yellow; */
+    position: absolute;
+    width: 25%;
+    left: 320px;
+    top: 50px; 
+    filter: drop-shadow(10px 10px 5px #16161652);
+    /* box-shadow: 5px 5px 5px #dddddd; */
+}
+
+
+
+.recent-news-section{
+    font-family: 'kanit', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.news-heading{
+    margin-bottom: -15px;
+}
+
+/* NEWS SECTION  */
+#news-section{
+    height: 380px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cards-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card{
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* .card-header img:hover{
+    box-shadow: 1px 2px 8px #9caebd;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+} */
+
+.card:hover{
+    box-shadow: 1px 2px 8px #9caebd;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card-content{ 
+    padding: 12px;
+}
+
+.news-title{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.news-source{
+    font-family: "Ubuntu", sans-serif;
+    margin-block: 12px;
+}
+
+.news-desc{
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* COMPANIES SECTION */
+#companies-section{
+    height: 150px;
+    background-color: rgba(206, 206, 206, 0.568);
+    margin-top: 50px;
+}
+
+.company-logo{
+    width: 10%;
+    margin: 50px 50px;
+    opacity: 0.5;
+}
+
+
+/* FOOTER */
+footer{
+    justify-content: space-between;
+    margin: 80px 50px;
+}
+
+.sec-1{
+    width: 240px;
+}
+
+.footer-logo{
+    font-family: 'Changa', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(223, 7, 7);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.info{
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(139, 139, 139);
+}
+
+.social-links{
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.social-links a{
+    color: black;
+}
+
+.quick-links h2{
+    font-size: 1rem;
+}
+
+.links{
+    flex-direction: column;
+}
+
+.quick-links .links a{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.contacts{
+    /* background-color: yellow; */
+    width: 150px;
+}
+
+.contacts h2, .email-subscribe h2{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contacts span{
+    line-height: 30px;
+    color: #5e5d5d;
+}
+
+.email-subscribe h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+}
+
+.email{
+    height: 30px;
+    margin-top:30px;
+    background-image: linear-gradient(to right, #ebebeb94,#c5c4c4);
+    padding: 6px;
+    padding-left:30px;
+    border-radius: 30px;
+}
+
+#email-input{
+    width: 200px;
+    height: 20px;
+    font-size: 0.9rem;
+    border: none;
+    background: transparent;
+    /* visibility:hidden;
+    display:none; */
+}
+
+#subscribe{
+    width: 100px;
+    height: 30px;
+    margin-left:10px;
+    color: white;
+    background-color: #fd4343;
+    border-radius: 20px;
+    border: none;
+    /* padding: 10px; */
+}
